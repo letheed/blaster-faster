@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/Laser/LaserCanon.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Effects/Flare.tscn" type="PackedScene" id=2]
+
+[node name="LaserCanon" type="Position2D"]
+
+script = ExtResource( 1 )
+Laser = null
+
+[node name="Flare" parent="." instance=ExtResource( 2 )]
+
+one_shot = false
+
+[node name="Timer" type="Timer" parent="."]
+
+process_mode = 1
+wait_time = 1.0
+one_shot = false
+autostart = false
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+
+stream = null
+volume_db = 0.0
+autoplay = false
+mix_target = 0
+bus = "Effects"
+
+[connection signal="timeout" from="Timer" to="." method="shoot"]
+
+

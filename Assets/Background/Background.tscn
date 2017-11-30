@@ -1,0 +1,18 @@
+[gd_scene format=2]
+
+[node name="Background" type="Polygon2D"]
+
+polygon = PoolVector2Array( -20, -20, 200, -20, 200, 340, -20, 340 )
+uv = PoolVector2Array(  )
+color = Color( 0.227451, 0.0784314, 0.223529, 1 )
+vertex_colors = PoolColorArray(  )
+offset = Vector2( 0, 0 )
+antialiased = false
+texture = null
+texture_offset = Vector2( 0, 0 )
+texture_scale = Vector2( 1, 1 )
+texture_rotation = 0.0
+invert_enable = false
+invert_border = 100.0
+
+

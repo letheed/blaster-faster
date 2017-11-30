@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Assets/Utils/SpriteGC.gd" type="Script" id=1]
+
+[node name="SpriteGC" type="VisibilityNotifier2D"]
+
+visible = false
+rect = Rect2( -10, -10, 20, 20 )
+script = ExtResource( 1 )
+
+

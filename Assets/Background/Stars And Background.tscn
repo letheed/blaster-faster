@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Assets/Background/Background.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Assets/Stars/Stars.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Assets/Stars/stars_far.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Stars/stars_close.png" type="Texture" id=4]
+
+[node name="StarsAndBackground" type="Node2D"]
+
+[node name="Background" parent="." instance=ExtResource( 1 )]
+
+z = -2
+
+[node name="StarsFar" parent="." instance=ExtResource( 2 )]
+
+z = -1
+texture = ExtResource( 3 )
+speed = 50.0
+
+[node name="StarsClose" parent="." instance=ExtResource( 2 )]
+
+z = 1
+texture = ExtResource( 4 )
+speed = 100.0
+
+

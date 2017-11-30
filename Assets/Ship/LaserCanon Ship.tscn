@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Assets/Laser/LaserCanon.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Assets/Ship/LaserCanon Ship.gd" type="Script" id=2]
+[ext_resource path="res://Assets/Ship/Laser Ship.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Assets/Ship/laser_ship.wav" type="AudioStream" id=4]
+
+[node name="LaserCanonShip" instance=ExtResource( 1 )]
+
+script = ExtResource( 2 )
+Laser = ExtResource( 3 )
+
+[node name="Timer" parent="."]
+
+wait_time = 0.25
+
+[node name="AudioStreamPlayer" parent="."]
+
+stream = ExtResource( 4 )
+volume_db = -8.0
+
+

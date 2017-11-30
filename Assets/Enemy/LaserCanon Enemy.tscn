@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Assets/Laser/LaserCanon.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Assets/Enemy/LaserCanon Enemy.gd" type="Script" id=2]
+[ext_resource path="res://Assets/Enemy/Laser Enemy.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Assets/Enemy/laser_enemy.wav" type="AudioStream" id=4]
+
+[node name="LaserCanonEnemy" instance=ExtResource( 1 )]
+
+script = ExtResource( 2 )
+Laser = ExtResource( 3 )
+
+[node name="Timer" parent="."]
+
+autostart = true
+
+[node name="AudioStreamPlayer" parent="."]
+
+stream = ExtResource( 4 )
+
+
