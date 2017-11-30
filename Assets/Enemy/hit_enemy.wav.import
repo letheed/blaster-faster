@@ -4,6 +4,10 @@ importer="wav"
 type="AudioStreamSample"
 path="res://.import/hit_enemy.wav-7b9fd990ffa244ea83f96aa083ff2a64.sample"
 
+[deps]
+
+source_md5="9f99f2d734bc37addfe309d6542cd425"
+
 [params]
 
 force/8_bit=false

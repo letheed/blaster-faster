@@ -4,6 +4,10 @@ importer="wav"
 type="AudioStreamSample"
 path="res://.import/laser_ship.wav-0c93e0cf5587cdfc3f69dbd883bc84b2.sample"
 
+[deps]
+
+source_md5="dce40528eda61f23582d40b7ae58d671"
+
 [params]
 
 force/8_bit=false

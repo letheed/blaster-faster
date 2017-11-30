@@ -4,6 +4,10 @@ importer="texture"
 type="StreamTexture"
 path="res://.import/button_hover.png-c37c53b4862b04d509c3bad302661afc.stex"
 
+[deps]
+
+source_md5="66ba4ea0389cd3e1b7ffbb456d70ca23"
+
 [params]
 
 compress/mode=0

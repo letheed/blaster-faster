@@ -4,6 +4,10 @@ importer="texture"
 type="StreamTexture"
 path="res://.import/enemy_kamikaze.png-e5714028e7bdb8f5e1e4f830ed4accfb.stex"
 
+[deps]
+
+source_md5="68aa32a6a5348d5bff14b0849fc100ee"
+
 [params]
 
 compress/mode=0

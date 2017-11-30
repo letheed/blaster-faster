@@ -4,6 +4,10 @@ importer="texture"
 type="StreamTexture"
 path="res://.import/power_ups.png-7cf88c0622dc2c8beebbe5405c444fab.stex"
 
+[deps]
+
+source_md5="fe4ea6c0b762b2baf3f11e9bd40a00d1"
+
 [params]
 
 compress/mode=0

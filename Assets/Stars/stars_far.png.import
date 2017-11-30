@@ -4,6 +4,10 @@ importer="texture"
 type="StreamTexture"
 path="res://.import/stars_far.png-76a0435d919b7e1132bc17b1ecf01c79.stex"
 
+[deps]
+
+source_md5="02997d4d426822d473a2b748acd8db51"
+
 [params]
 
 compress/mode=0

@@ -4,6 +4,10 @@ importer="texture"
 type="StreamTexture"
 path="res://.import/laser_ship.png-20cb7144264ccfa5e3abf7cb37ac9bba.stex"
 
+[deps]
+
+source_md5="d1f2ec41aec5737db3232dbb5d60bf7a"
+
 [params]
 
 compress/mode=0

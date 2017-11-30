@@ -4,6 +4,10 @@ importer="texture"
 type="StreamTexture"
 path="res://.import/stars_close.png-2786fac93275042e3e3a9d7a5cad18df.stex"
 
+[deps]
+
+source_md5="677b62293cc94082824b827378181d69"
+
 [params]
 
 compress/mode=0

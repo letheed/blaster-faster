@@ -4,6 +4,10 @@ importer="wav"
 type="AudioStreamSample"
 path="res://.import/powerup.wav-8b40ccf6fd57ebc2a4b641999baecdb4.sample"
 
+[deps]
+
+source_md5="4c5195b32ec7fd49367325d3387b21f6"
+
 [params]
 
 force/8_bit=false

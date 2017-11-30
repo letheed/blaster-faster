@@ -4,6 +4,10 @@ importer="texture"
 type="StreamTexture"
 path="res://.import/flare.png-c2f92e7f48ca6e3c50440677d3ac2e82.stex"
 
+[deps]
+
+source_md5="e2bd963e702159054b69d391a822564e"
+
 [params]
 
 compress/mode=0

@@ -4,6 +4,10 @@ importer="texture"
 type="StreamTexture"
 path="res://.import/score.png-5b5b7fb2dd68d138f6a5020f40cb6fba.stex"
 
+[deps]
+
+source_md5="1149928a8a4334998bedb135eabce798"
+
 [params]
 
 compress/mode=0

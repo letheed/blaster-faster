@@ -4,6 +4,10 @@ importer="texture"
 type="StreamTexture"
 path="res://.import/laser_enemy.png-e627093faaf942bac1eeb333d62d5292.stex"
 
+[deps]
+
+source_md5="1e09a8c9da658c251ad29ef9cb2cf08e"
+
 [params]
 
 compress/mode=0

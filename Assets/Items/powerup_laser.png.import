@@ -4,6 +4,10 @@ importer="texture"
 type="StreamTexture"
 path="res://.import/powerup_laser.png-f033f73e532dbf6f5b7cd7bc3b7e9019.stex"
 
+[deps]
+
+source_md5="147ddcb8ef1d943c3bdafda990676496"
+
 [params]
 
 compress/mode=0
