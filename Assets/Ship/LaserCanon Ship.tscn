@@ -5,16 +5,16 @@
 [ext_resource path="res://Assets/Ship/Laser Ship.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Assets/Ship/laser_ship.wav" type="AudioStream" id=4]
 
-[node name="LaserCanonShip" instance=ExtResource( 1 )]
+[node name="LaserCanonShip" index="0" instance=ExtResource( 1 )]
 
 script = ExtResource( 2 )
 Laser = ExtResource( 3 )
 
-[node name="Timer" parent="."]
+[node name="Timer" parent="." index="1"]
 
 wait_time = 0.25
 
-[node name="AudioStreamPlayer" parent="."]
+[node name="AudioStreamPlayer" parent="." index="2"]
 
 stream = ExtResource( 4 )
 volume_db = -8.0

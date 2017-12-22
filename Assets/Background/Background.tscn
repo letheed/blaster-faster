@@ -1,6 +1,6 @@
 [gd_scene format=2]
 
-[node name="Background" type="Polygon2D"]
+[node name="Background" type="Polygon2D" index="0"]
 
 polygon = PoolVector2Array( -20, -20, 200, -20, 200, 340, -20, 340 )
 uv = PoolVector2Array(  )

@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Assets/Stars/Stars.gd" type="Script" id=1]
 
-[node name="Stars" type="Node2D"]
+[node name="Stars" type="Node2D" index="0"]
 
 script = ExtResource( 1 )
 texture = null

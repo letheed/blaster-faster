@@ -3,7 +3,7 @@
 [ext_resource path="res://Assets/Laser/Laser.gd" type="Script" id=1]
 [ext_resource path="res://Assets/Utils/SpriteGC.tscn" type="PackedScene" id=2]
 
-[node name="Laser" type="Area2D"]
+[node name="Laser" type="Area2D" index="0"]
 
 input_pickable = true
 gravity_vec = Vector2( 0, 1 )
@@ -16,13 +16,13 @@ script = ExtResource( 1 )
 velocity = null
 target_group = null
 
-[node name="Sprite" type="Sprite" parent="."]
+[node name="Sprite" type="Sprite" parent="." index="0"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
 
 visible = false
 
-[node name="SpriteGC" parent="." instance=ExtResource( 2 )]
+[node name="SpriteGC" parent="." index="2" instance=ExtResource( 2 )]
 
 [connection signal="area_entered" from="." to="." method="on_area_entered"]
 

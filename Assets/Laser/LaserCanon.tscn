@@ -3,23 +3,23 @@
 [ext_resource path="res://Assets/Laser/LaserCanon.gd" type="Script" id=1]
 [ext_resource path="res://Assets/Effects/Flare.tscn" type="PackedScene" id=2]
 
-[node name="LaserCanon" type="Position2D"]
+[node name="LaserCanon" type="Position2D" index="0"]
 
 script = ExtResource( 1 )
 Laser = null
 
-[node name="Flare" parent="." instance=ExtResource( 2 )]
+[node name="Flare" parent="." index="0" instance=ExtResource( 2 )]
 
 one_shot = false
 
-[node name="Timer" type="Timer" parent="."]
+[node name="Timer" type="Timer" parent="." index="1"]
 
 process_mode = 1
 wait_time = 1.0
 one_shot = false
 autostart = false
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="2"]
 
 stream = null
 volume_db = 0.0

@@ -5,7 +5,7 @@
 [ext_resource path="res://Assets/Ship/ship.png" type="Texture" id=3]
 [ext_resource path="res://Assets/Ship/LaserCanon Ship.tscn" type="PackedScene" id=4]
 
-[node name="Ship" groups=[
+[node name="Ship" index="0" groups=[
 "Player",
 ] instance=ExtResource( 1 )]
 
@@ -13,30 +13,30 @@ position = Vector2( 90, 280 )
 script = ExtResource( 2 )
 hp_full = 4
 
-[node name="Sprite" parent="."]
+[node name="Sprite" parent="." index="0"]
 
 texture = ExtResource( 3 )
 
-[node name="CollisionPolygon2D" parent="."]
+[node name="CollisionPolygon2D" parent="." index="1"]
 
 polygon = PoolVector2Array( 15, 2, 15, 13, -15, 13, -15, 2, -8, -5, -3, -15, 3, -15, 8, -5 )
 
-[node name="LaserCanonLeft" parent="." instance=ExtResource( 4 )]
+[node name="LaserCanonLeft" parent="." index="3" instance=ExtResource( 4 )]
 
 position = Vector2( -13, -10 )
 
-[node name="LaserCanonRight" parent="." instance=ExtResource( 4 )]
+[node name="LaserCanonRight" parent="." index="4" instance=ExtResource( 4 )]
 
 position = Vector2( 13, -10 )
 
-[node name="CanonTimer" type="Timer" parent="."]
+[node name="CanonTimer" type="Timer" parent="." index="5"]
 
 process_mode = 1
 wait_time = 10.0
 one_shot = false
 autostart = false
 
-[node name="InvulnerabilityTimer" type="Timer" parent="."]
+[node name="InvulnerabilityTimer" type="Timer" parent="." index="6"]
 
 process_mode = 1
 wait_time = 1.5

@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Assets/Enemy/Enemy Spawner.gd" type="Script" id=1]
 
-[node name="EnemySpawner" type="Node2D"]
+[node name="EnemySpawner" type="Node2D" index="0"]
 
 script = ExtResource( 1 )
 enabled = true
@@ -10,7 +10,7 @@ Enemy = null
 timer_min = 0.5
 timer_max = 1.5
 
-[node name="Timer" type="Timer" parent="."]
+[node name="Timer" type="Timer" parent="." index="0"]
 
 process_mode = 1
 wait_time = 1.0

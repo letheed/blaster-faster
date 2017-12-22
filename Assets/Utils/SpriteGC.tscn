@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Assets/Utils/SpriteGC.gd" type="Script" id=1]
 
-[node name="SpriteGC" type="VisibilityNotifier2D"]
+[node name="SpriteGC" type="VisibilityNotifier2D" index="0"]
 
 visible = false
 rect = Rect2( -10, -10, 20, 20 )

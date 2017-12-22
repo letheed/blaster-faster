@@ -5,7 +5,7 @@
 [ext_resource path="res://Assets/GUI/button_hover.png" type="Texture" id=3]
 [ext_resource path="res://Share/Themes/Default.tres" type="Theme" id=4]
 
-[node name="TextureButton" type="TextureButton"]
+[node name="TextureButton" type="TextureButton" index="0"]
 
 anchor_left = 0.5
 anchor_top = 0.5
@@ -16,7 +16,6 @@ margin_top = -8.0
 margin_right = 23.0
 margin_bottom = 8.0
 rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
 mouse_filter = 0
 size_flags_horizontal = 4
 size_flags_vertical = 4
@@ -29,7 +28,7 @@ texture_pressed = ExtResource( 2 )
 texture_hover = ExtResource( 3 )
 stretch_mode = 5
 
-[node name="Label" type="Label" parent="."]
+[node name="Label" type="Label" parent="." index="0"]
 
 anchor_left = 0.5
 anchor_top = 0.5
@@ -40,7 +39,6 @@ margin_top = -6.0
 margin_right = 22.0
 margin_bottom = 6.0
 rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
 mouse_filter = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4

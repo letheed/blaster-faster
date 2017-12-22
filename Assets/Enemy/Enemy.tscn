@@ -4,7 +4,7 @@
 [ext_resource path="res://Assets/Enemy/Enemy.gd" type="Script" id=2]
 [ext_resource path="res://Assets/Utils/SpriteGC.tscn" type="PackedScene" id=3]
 
-[node name="Enemy" groups=[
+[node name="Enemy" index="0" groups=[
 "Enemies",
 ] instance=ExtResource( 1 )]
 
@@ -12,7 +12,7 @@ position = Vector2( 20, -20 )
 script = ExtResource( 2 )
 velocity = null
 
-[node name="SpriteGC" parent="." instance=ExtResource( 3 )]
+[node name="SpriteGC" parent="." index="3" instance=ExtResource( 3 )]
 
 [connection signal="area_entered" from="." to="." method="on_area_entered"]
 

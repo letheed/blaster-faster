@@ -5,11 +5,11 @@
 [ext_resource path="res://Assets/Enemy/hit_enemy.wav" type="AudioStream" id=3]
 [ext_resource path="res://Assets/Items/powerup.wav" type="AudioStream" id=4]
 
-[node name="Effects" type="Node"]
+[node name="Effects" type="Node" index="0"]
 
 script = ExtResource( 1 )
 
-[node name="HitShip" type="AudioStreamPlayer" parent="."]
+[node name="HitShip" type="AudioStreamPlayer" parent="." index="0"]
 
 stream = ExtResource( 2 )
 volume_db = 5.0
@@ -17,7 +17,7 @@ autoplay = false
 mix_target = 0
 bus = "Effects"
 
-[node name="HitEnemy" type="AudioStreamPlayer" parent="."]
+[node name="HitEnemy" type="AudioStreamPlayer" parent="." index="1"]
 
 stream = ExtResource( 3 )
 volume_db = 0.0
@@ -25,7 +25,7 @@ autoplay = false
 mix_target = 0
 bus = "Effects"
 
-[node name="PowerUp" type="AudioStreamPlayer" parent="."]
+[node name="PowerUp" type="AudioStreamPlayer" parent="." index="2"]
 
 stream = ExtResource( 4 )
 volume_db = -3.0
