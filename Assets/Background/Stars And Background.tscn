@@ -9,17 +9,17 @@
 
 [node name="Background" parent="." index="0" instance=ExtResource( 1 )]
 
-z = -2
+z_index = -2
 
 [node name="StarsFar" parent="." index="1" instance=ExtResource( 2 )]
 
-z = -1
+z_index = -1
 texture = ExtResource( 3 )
 speed = 50.0
 
 [node name="StarsClose" parent="." index="2" instance=ExtResource( 2 )]
 
-z = 1
+z_index = 1
 texture = ExtResource( 4 )
 speed = 100.0
 

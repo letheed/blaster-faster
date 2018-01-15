@@ -6,7 +6,11 @@ path="res://.import/button_pressed.png-614447b672a500a3a0fc7f169dce5de0.stex"
 
 [deps]
 
+source_file="res://Assets/GUI/button_pressed.png"
 source_md5="58d5e4d9893414d43369fb2b7c45dd27"
+
+dest_files=[ "res://.import/button_pressed.png-614447b672a500a3a0fc7f169dce5de0.stex" ]
+dest_md5="e746191b12380406ad84ccd5a57647d1"
 
 [params]
 

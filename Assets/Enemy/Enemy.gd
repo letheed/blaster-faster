@@ -41,5 +41,5 @@ func on_player_died():
 	if velocity.y > 100:
 		velocity.y = 100
 	velocity.y += rand_range(-10, 10)
-	if $LaserCanonEnemy:
+	if has_node("LaserCanonEnemy"):
 		$LaserCanonEnemy.timer.stop()

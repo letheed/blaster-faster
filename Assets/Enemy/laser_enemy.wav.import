@@ -6,7 +6,11 @@ path="res://.import/laser_enemy.wav-d0bf2d091c616b4d2585810df9a0619c.sample"
 
 [deps]
 
+source_file="res://Assets/Enemy/laser_enemy.wav"
 source_md5="4db32f659776a3e7f202670232dbb818"
+
+dest_files=[ "res://.import/laser_enemy.wav-d0bf2d091c616b4d2585810df9a0619c.sample" ]
+dest_md5="4be63955b0be6bd32a0b7870c2620a6e"
 
 [params]
 

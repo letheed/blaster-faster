@@ -6,7 +6,11 @@ path="res://.import/music.ogg-44b2b5ed1f6cd1aad9f2cfb26fd2fdf7.oggstr"
 
 [deps]
 
+source_file="res://Share/Soundtrack/music.ogg"
 source_md5="1f78892e1ffae4242b678b944e1037ff"
+
+dest_files=[ "res://.import/music.ogg-44b2b5ed1f6cd1aad9f2cfb26fd2fdf7.oggstr" ]
+dest_md5="875737f7df4e5d61045816213bc07ad9"
 
 [params]
 

@@ -6,7 +6,11 @@ path="res://.import/laser_ship.png-20cb7144264ccfa5e3abf7cb37ac9bba.stex"
 
 [deps]
 
+source_file="res://Assets/Ship/laser_ship.png"
 source_md5="d1f2ec41aec5737db3232dbb5d60bf7a"
+
+dest_files=[ "res://.import/laser_ship.png-20cb7144264ccfa5e3abf7cb37ac9bba.stex" ]
+dest_md5="3c288bc24dd42d43c8dc1083e72009c8"
 
 [params]
 

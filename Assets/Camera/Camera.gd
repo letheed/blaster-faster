@@ -13,14 +13,14 @@ func _ready():
 func _process(delta):
 	var x = rand_range(-magnitude, magnitude)
 	var y = rand_range(-magnitude, magnitude)
-	position = Vector2(x, y)
+	offset = Vector2(x, y)
 	duration -= delta
 	if duration < 0:
 		reset()
 
 func reset():
 	set_process(false)
-	position = Vector2(0, 0)
+	offset = Vector2(0, 0)
 	magnitude = 0
 	duration = 0
 

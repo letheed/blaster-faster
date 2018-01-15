@@ -6,7 +6,11 @@ path="res://.import/score.png-5b5b7fb2dd68d138f6a5020f40cb6fba.stex"
 
 [deps]
 
+source_file="res://Assets/HUD/score.png"
 source_md5="1149928a8a4334998bedb135eabce798"
+
+dest_files=[ "res://.import/score.png-5b5b7fb2dd68d138f6a5020f40cb6fba.stex" ]
+dest_md5="bd3b81d881fec038984a992e439129c8"
 
 [params]
 

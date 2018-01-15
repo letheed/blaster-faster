@@ -11,7 +11,7 @@ antialiased = false
 texture = null
 texture_offset = Vector2( 0, 0 )
 texture_scale = Vector2( 1, 1 )
-texture_rotation = 0.0
+texture_rotation_degrees = 0.0
 invert_enable = false
 invert_border = 100.0
 

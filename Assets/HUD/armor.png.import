@@ -6,7 +6,11 @@ path="res://.import/armor.png-e584565dd41397065d72fbc75db31a46.stex"
 
 [deps]
 
+source_file="res://Assets/HUD/armor.png"
 source_md5="69d8666b0104375877473610b0ac7d97"
+
+dest_files=[ "res://.import/armor.png-e584565dd41397065d72fbc75db31a46.stex" ]
+dest_md5="ce7332b04cf6ffb02addbb90006f1950"
 
 [params]
 

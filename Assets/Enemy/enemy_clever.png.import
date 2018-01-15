@@ -6,7 +6,11 @@ path="res://.import/enemy_clever.png-255c28b13b5b172f29d92c3c5ce6e4d9.stex"
 
 [deps]
 
+source_file="res://Assets/Enemy/enemy_clever.png"
 source_md5="f0c531aa9ccedd6d352929f2b7a3b7d8"
+
+dest_files=[ "res://.import/enemy_clever.png-255c28b13b5b172f29d92c3c5ce6e4d9.stex" ]
+dest_md5="86eb0977352996050a6935638d855f01"
 
 [params]
 
