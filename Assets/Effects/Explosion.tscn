@@ -88,7 +88,6 @@ playback_default_blend_time = 0.0
 playback_speed = 1.0
 anims/Explosion = SubResource( 1 )
 blend_times = [  ]
-autoplay = ""
 
 [node name="Timer" type="Timer" parent="." index="3"]
 

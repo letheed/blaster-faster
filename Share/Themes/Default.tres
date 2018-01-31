@@ -2,7 +2,6 @@
 
 [ext_resource path="res://Share/Fonts/m5x7-16.tres" type="DynamicFont" id=1]
 
-
 [resource]
 
 default_font = ExtResource( 1 )
