@@ -7,10 +7,7 @@ path="res://.import/power_ups.png-7cf88c0622dc2c8beebbe5405c444fab.stex"
 [deps]
 
 source_file="res://Assets/Items/power_ups.png"
-source_md5="fe4ea6c0b762b2baf3f11e9bd40a00d1"
-
 dest_files=[ "res://.import/power_ups.png-7cf88c0622dc2c8beebbe5405c444fab.stex" ]
-dest_md5="e0f2c90eb0397277ca1e493668c33a6a"
 
 [params]
 
@@ -28,5 +25,5 @@ process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

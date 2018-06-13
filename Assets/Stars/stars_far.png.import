@@ -7,10 +7,7 @@ path="res://.import/stars_far.png-76a0435d919b7e1132bc17b1ecf01c79.stex"
 [deps]
 
 source_file="res://Assets/Stars/stars_far.png"
-source_md5="02997d4d426822d473a2b748acd8db51"
-
 dest_files=[ "res://.import/stars_far.png-76a0435d919b7e1132bc17b1ecf01c79.stex" ]
-dest_md5="fb0dbfa0d7b24ea72cb86c0518f3903f"
 
 [params]
 
@@ -28,5 +25,5 @@ process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

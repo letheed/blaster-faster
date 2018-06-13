@@ -7,10 +7,7 @@ path="res://.import/powerup_health.png-cf5a43cb1b3b58c0e5b37a4c49f184a2.stex"
 [deps]
 
 source_file="res://Assets/Items/powerup_health.png"
-source_md5="248b8dc65cdb8345cf3561c8c1480ddb"
-
 dest_files=[ "res://.import/powerup_health.png-cf5a43cb1b3b58c0e5b37a4c49f184a2.stex" ]
-dest_md5="bd485e6f7f1c1583c3ba67668f123bb5"
 
 [params]
 
@@ -28,5 +25,5 @@ process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

@@ -7,10 +7,7 @@ path="res://.import/laser_enemy.png-e627093faaf942bac1eeb333d62d5292.stex"
 [deps]
 
 source_file="res://Assets/Enemy/laser_enemy.png"
-source_md5="1e09a8c9da658c251ad29ef9cb2cf08e"
-
 dest_files=[ "res://.import/laser_enemy.png-e627093faaf942bac1eeb333d62d5292.stex" ]
-dest_md5="c1c44bf93dd933bfe9d5fbed1f388cc2"
 
 [params]
 
@@ -28,5 +25,5 @@ process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

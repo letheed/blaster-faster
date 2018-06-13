@@ -7,10 +7,7 @@ path="res://.import/enemy_kamikaze.png-e5714028e7bdb8f5e1e4f830ed4accfb.stex"
 [deps]
 
 source_file="res://Assets/Enemy/enemy_kamikaze.png"
-source_md5="68aa32a6a5348d5bff14b0849fc100ee"
-
 dest_files=[ "res://.import/enemy_kamikaze.png-e5714028e7bdb8f5e1e4f830ed4accfb.stex" ]
-dest_md5="dd3a6c54f5e0f1c3c37464d22c000234"
 
 [params]
 
@@ -28,5 +25,5 @@ process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

@@ -7,10 +7,7 @@ path="res://.import/button_normal.png-d5ed34500544f0b165f409a52568e4f6.stex"
 [deps]
 
 source_file="res://Assets/GUI/button_normal.png"
-source_md5="3d3a779538ca01de6dc3ad694ebe0687"
-
 dest_files=[ "res://.import/button_normal.png-d5ed34500544f0b165f409a52568e4f6.stex" ]
-dest_md5="3b2ae2c376f58c78df62328fb3d11452"
 
 [params]
 
@@ -28,5 +25,5 @@ process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

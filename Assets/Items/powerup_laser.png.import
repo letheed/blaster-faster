@@ -7,10 +7,7 @@ path="res://.import/powerup_laser.png-f033f73e532dbf6f5b7cd7bc3b7e9019.stex"
 [deps]
 
 source_file="res://Assets/Items/powerup_laser.png"
-source_md5="147ddcb8ef1d943c3bdafda990676496"
-
 dest_files=[ "res://.import/powerup_laser.png-f033f73e532dbf6f5b7cd7bc3b7e9019.stex" ]
-dest_md5="2aa542beb8d3ed42e6c7cac3e4790556"
 
 [params]
 
@@ -28,5 +25,5 @@ process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

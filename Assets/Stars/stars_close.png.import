@@ -7,10 +7,7 @@ path="res://.import/stars_close.png-2786fac93275042e3e3a9d7a5cad18df.stex"
 [deps]
 
 source_file="res://Assets/Stars/stars_close.png"
-source_md5="677b62293cc94082824b827378181d69"
-
 dest_files=[ "res://.import/stars_close.png-2786fac93275042e3e3a9d7a5cad18df.stex" ]
-dest_md5="1c9fdb273e731e668973945a7ba61278"
 
 [params]
 
@@ -28,5 +25,5 @@ process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

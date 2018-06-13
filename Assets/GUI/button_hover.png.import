@@ -7,10 +7,7 @@ path="res://.import/button_hover.png-c37c53b4862b04d509c3bad302661afc.stex"
 [deps]
 
 source_file="res://Assets/GUI/button_hover.png"
-source_md5="66ba4ea0389cd3e1b7ffbb456d70ca23"
-
 dest_files=[ "res://.import/button_hover.png-c37c53b4862b04d509c3bad302661afc.stex" ]
-dest_md5="69c36983b61de911bef6d9f67d8b0970"
 
 [params]
 
@@ -28,5 +25,5 @@ process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

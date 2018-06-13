@@ -7,10 +7,7 @@ path="res://.import/flare.png-c2f92e7f48ca6e3c50440677d3ac2e82.stex"
 [deps]
 
 source_file="res://Assets/Effects/flare.png"
-source_md5="e2bd963e702159054b69d391a822564e"
-
 dest_files=[ "res://.import/flare.png-c2f92e7f48ca6e3c50440677d3ac2e82.stex" ]
-dest_md5="e83ab4da967b639717b1978d3fd0b3b9"
 
 [params]
 
@@ -28,5 +25,5 @@ process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0
